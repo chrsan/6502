@@ -2,7 +2,7 @@
   mpd = res_lo + 1
   mpr = res_lo + 2
 
-.org $0300
+  .org $0200
 
   lda #5
   sta mpd

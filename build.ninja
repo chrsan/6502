@@ -10,3 +10,7 @@ rule link
 build mult.o: asm mult.asm
 
 build mult.bin: link mult.o
+
+build hello.o: asm hello.asm
+
+build hello.bin: link hello.o
